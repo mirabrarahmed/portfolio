@@ -2,6 +2,10 @@
 import { useEffect, useState } from 'react';
 import WelcomeFade from './components/WelcomeFade';
 import HomeScreen from './components/HomeScreen';
+import Navbar from './components/Navbar'
+import Footer from './components/Footer';
+import Profile from './components/Profile';
+import {Outlet} from 'react-router-dom';
 
 function App() {
   const [isChecked, setIsChecked] = useState(true)
@@ -15,8 +19,8 @@ function App() {
   }, [])
   return (
     <div className="App">
-        {isChecked === false? <HomeScreen/> : <WelcomeFade isChecked={isChecked}/> }
-      </div>
+        {isChecked === false?<><Navbar/><Footer/> </>: <WelcomeFade isChecked={isChecked}/> }
+    </div>
   );
 }
 

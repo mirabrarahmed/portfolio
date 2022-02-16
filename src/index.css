@@ -26,16 +26,17 @@ h2,
 h3 {
   margin: 0;
   display: inline;
+  font-size: 1.5vw;
 }
 p,
 ul,
 ol {
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 400;
   margin: 0;
 }
 span {
-  font-size: 20px;
+  font-size: 1vw;
   margin-left: 5px;
   font-weight: 400;
 }
@@ -58,10 +59,10 @@ table {
 }
 td {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1vw;
 }
 th {
-  font-size: 24px;
+  font-size: 1vw;
 }
 .projects {
   text-align: left;

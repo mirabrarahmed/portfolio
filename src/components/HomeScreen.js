@@ -6,20 +6,9 @@ import { Fade } from '@material-ui/core';
 import Profile from './Profile';
 
 function HomeScreen(props) {
-    const [isChecked, setIsChecked] = useState(true)
-
-    // useEffect(() => {
-    //   const timeout = setInterval(() => {
-    //     // if(isChecked === true){
-    //     //   setIsChecked(false)
-    //     // }
-    //   }, 5000)
-    // }, [])
     return (
             <div className='home-screen'>
-                <Navbar/>
-                <Profile />
-                <Footer/>   
+                {/* <Profile />  */}
             </div>
     );
 }

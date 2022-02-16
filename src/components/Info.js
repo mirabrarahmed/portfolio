@@ -24,8 +24,8 @@ function Info({name, email, number, gitLink, linkedinLink}) {
                     <h2>Name:</h2><span>{name}</span><br/>
                     <h2>E-mail:</h2><span>{email}</span><br/>
                     <h2>Cell-Phone:</h2><span>{number}</span><br/>
-                    <h2>GitHub Profile:</h2><span><a href='https://github.com/mirabrarahmed'>{gitLink}</a></span><br/>
-                    <h2>LinkedIn Profile:</h2><span><a href='https://www.linkedin.com/in/abrar-ahmed-991a4aa6/'>{linkedinLink}</a></span><br/>
+                    <h2>GitHub Profile:</h2><span><a href='https://github.com/mirabrarahmed' target='_blank'>{gitLink}</a></span><br/>
+                    <h2>LinkedIn Profile:</h2><span><a href='https://www.linkedin.com/in/mir-abrar-ahmed-991a4aa6' target='_blank'>{linkedinLink}</a></span><br/>
             </Paper>
         </div>
     );

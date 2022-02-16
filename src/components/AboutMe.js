@@ -9,7 +9,7 @@ import { Paper } from '@material-ui/core';
 function AboutMe(props) {
     return (
         <div className='about-me-screen'>
-                <Navbar/>
+                {/* <Navbar/> */}
                 <div 
                     className="table" 
                     style={{
@@ -97,7 +97,7 @@ function AboutMe(props) {
                         </ul>
                     </Paper>
                 </div>
-                <Footer/>   
+                {/* <Footer/>    */}
         </div>
     );
 }

@@ -6,8 +6,8 @@ import colors from '../config/colors';
 
 function Projects(props) {
     return (
-        <div className='projects-screen' style={{minHeight: '100vh'}}>
-                <Navbar/>
+        <div className='projects-screen' style={{minHeight: '80vh'}}>
+                {/* <Navbar/> */}
                 <div 
                     className="projects" 
                     style={{
@@ -90,7 +90,7 @@ function Projects(props) {
                         </Paper>
                     </div>
                 </div>
-                <Footer/>   
+                {/* <Footer/>    */}
         </div>
     );
 }

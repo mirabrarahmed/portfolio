@@ -7,7 +7,7 @@ import colors from '../config/colors';
 function Research(props) {
     return (
         <div>
-            <Navbar/>
+            {/* <Navbar/> */}
                 <div 
                     className="research" 
                     style={{
@@ -43,7 +43,7 @@ function Research(props) {
                         
                     </div>
                 </div>
-                <Footer/>
+                {/* <Footer/> */}
         </div>
     );
 }

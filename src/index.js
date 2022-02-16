@@ -7,16 +7,17 @@ import AboutMe from './components/AboutMe';
 import HomeScreen from './components/HomeScreen';
 import Projects from './components/Projects';
 import Research from './components/Research';
+import Profile from './components/Profile';
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/portfolio" element={<App />} />
-        <Route path="/home" element={<HomeScreen />} />
-        <Route path="/aboutme" element={<AboutMe />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/research" element={<Research />} />
-      {/* <Route path="invoices" element={<Invoices />} /> */}
+      <Route path="/portfolio/" element={<App />} >
+          <Route path="aboutme" element={<AboutMe />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="research" element={<Research />} />
+          <Route path="home" element={<Profile />} />
+      </Route>
     </Routes>
   </BrowserRouter>,
     document.getElementById('root')
