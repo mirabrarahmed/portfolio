@@ -1,4 +1,4 @@
-import './App.css';
+
 import { useEffect, useState } from 'react';
 import WelcomeFade from './components/WelcomeFade';
 import HomeScreen from './components/HomeScreen';
