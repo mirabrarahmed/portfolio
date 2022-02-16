@@ -12,7 +12,7 @@ import Research from './components/Research';
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/portfolio/" element={<App />} />
         <Route path="home" element={<HomeScreen />} />
         <Route path="aboutme" element={<AboutMe />} />
         <Route path="projects" element={<Projects />} />
