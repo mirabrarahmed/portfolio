@@ -12,7 +12,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/portfolio/" element={<App />} />
-        <Route path="home" element={<HomeScreen />} />
+        <Route path="portfolio/home" element={<HomeScreen />} />
         <Route path="aboutme" element={<AboutMe />} />
         <Route path="projects" element={<Projects />} />
         <Route path="research" element={<Research />} />
