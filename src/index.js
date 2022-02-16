@@ -13,9 +13,9 @@ ReactDOM.render(
     <Routes>
       <Route path="/portfolio/" element={<App />} />
         <Route path="portfolio/home" element={<HomeScreen />} />
-        <Route path="aboutme" element={<AboutMe />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="research" element={<Research />} />
+        <Route path="portfolio/aboutme" element={<AboutMe />} />
+        <Route path="portfolio/projects" element={<Projects />} />
+        <Route path="portfolio/research" element={<Research />} />
       {/* <Route path="invoices" element={<Invoices />} /> */}
     </Routes>
   </BrowserRouter>,
