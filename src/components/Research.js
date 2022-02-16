@@ -1,13 +1,10 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Footer from './Footer';
 import {Paper} from '@material-ui/core'
 import colors from '../config/colors';
 
 function Research(props) {
     return (
         <div>
-            {/* <Navbar/> */}
                 <div 
                     className="research" 
                     style={{
@@ -43,7 +40,6 @@ function Research(props) {
                         
                     </div>
                 </div>
-                {/* <Footer/> */}
         </div>
     );
 }

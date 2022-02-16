@@ -1,13 +1,10 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Footer from './Footer';
 import {Paper} from '@material-ui/core'
 import colors from '../config/colors';
 
 function Projects(props) {
     return (
         <div className='projects-screen' style={{minHeight: '80vh'}}>
-                {/* <Navbar/> */}
                 <div 
                     className="projects" 
                     style={{
@@ -90,7 +87,6 @@ function Projects(props) {
                         </Paper>
                     </div>
                 </div>
-                {/* <Footer/>    */}
         </div>
     );
 }

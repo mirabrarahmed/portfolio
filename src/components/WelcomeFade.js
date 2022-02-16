@@ -23,13 +23,13 @@ function WelcomeFade({isChecked}) {
                 backgroundPosition: 'center',
                 backgroundSize: 'cover' }} >
             <h1 style={{
-                    fontSize: '150px', 
+                    fontSize: '10vw', 
                     textShadow: '10px -4px 5px #1c829e', 
                     textTransform:'uppercase'}}>Welcome</h1>
             <h2 style={{
-                    fontSize: '40px', 
+                    fontSize: '4vw', 
                     textTransform:'uppercase',
-                    color:colors.secondary}}>Take Love And Be Humble</h2>
+                    color:colors.secondary}}>To My Journey Of Life</h2>
           </Paper>
         </Fade>
         </div>

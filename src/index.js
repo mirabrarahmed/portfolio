@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import AboutMe from './components/AboutMe';
-import HomeScreen from './components/HomeScreen';
 import Projects from './components/Projects';
 import Research from './components/Research';
 import Profile from './components/Profile';

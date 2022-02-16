@@ -1,11 +1,8 @@
 
 import { useEffect, useState } from 'react';
 import WelcomeFade from './components/WelcomeFade';
-import HomeScreen from './components/HomeScreen';
 import Navbar from './components/Navbar'
 import Footer from './components/Footer';
-import Profile from './components/Profile';
-import {Outlet} from 'react-router-dom';
 
 function App() {
   const [isChecked, setIsChecked] = useState(true)

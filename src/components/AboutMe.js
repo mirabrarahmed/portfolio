@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Footer from './Footer';
 import colors from '../config/colors';
 // import aboutMeBackground from '../images/img3.png'
 import aboutMeBackground from '../images/img4.png'
@@ -9,7 +7,6 @@ import { Paper } from '@material-ui/core';
 function AboutMe(props) {
     return (
         <div className='about-me-screen'>
-                {/* <Navbar/> */}
                 <div 
                     className="table" 
                     style={{
@@ -24,7 +21,7 @@ function AboutMe(props) {
                 >
                     <Paper elevation={5} 
                             style={{    
-                                margin:'0px 10px 10px 10px', 
+                                margin:'10px 10px 0px 10px', 
                                 padding:20, 
                                 backgroundColor: colors.secondary, 
                                 opacity:'.9',
@@ -61,7 +58,7 @@ function AboutMe(props) {
                     <br />
                     <Paper elevation={5} 
                            style={{
-                                margin:'0px 10px 10px 10px',  
+                                margin:'10px 10px 0px 10px',  
                                 padding:20, 
                                 backgroundColor: colors.secondary, 
                                 opacity:'.9',
@@ -80,7 +77,7 @@ function AboutMe(props) {
                     <br />
                     <Paper elevation={5} 
                            style={{
-                                margin:'0px 10px 10px 10px',  
+                                margin:'10px 10px 0px 10px',  
                                 padding:20, 
                                 backgroundColor: colors.secondary, 
                                 opacity:'.9',
@@ -97,7 +94,6 @@ function AboutMe(props) {
                         </ul>
                     </Paper>
                 </div>
-                {/* <Footer/>    */}
         </div>
     );
 }
