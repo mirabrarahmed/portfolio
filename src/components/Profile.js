@@ -31,8 +31,8 @@ function Profile(props) {
                 </div>
                 <Info 
                     name='Mir Abrar Ahmed' 
-                    email='abrarahmedshawn@gmail.com' 
-                    number='+880 1733762795' 
+                    email='abr...@gmail.com' 
+                    number='+880 173....' 
                     gitLink='mirabrarahmed' 
                     linkedinLink='Mir Abrar Ahmed' />
             </Paper>
