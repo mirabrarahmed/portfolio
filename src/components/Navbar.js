@@ -11,16 +11,16 @@ function Navbar(props) {
                                         justifyContent: 'space-evenly', 
                                         alignItems: 'center',
                                         color: colors.secondary}}>
-                <Link to="portfolio/home">
+                <Link to="/home">
                     <h1>Home</h1>
                 </Link>                            
-                <Link to="portfolio/aboutme">
+                <Link to="/aboutme">
                     <h1>About Me</h1>
                 </Link>
-                <Link to="portfolio/projects">
+                <Link to="/projects">
                     <h1>Projects</h1>
                 </Link>
-                <Link to="portfolio/research">
+                <Link to="/research">
                     <h1>Research</h1>
                 </Link>
             </nav>
