@@ -12,11 +12,12 @@ function App() {
       if(isChecked === true){
         setIsChecked(false)
       }
-    }, 4000)
+    }, 5000)
   }, [])
+  if(isChecked) return <WelcomeFade isChecked={isChecked}/>
   return (
     <div className="App">
-        {isChecked === false?<><Navbar/><Footer/> </>: <WelcomeFade isChecked={isChecked}/> }
+        <Navbar/><Footer/> 
     </div>
   );
 }
