@@ -9,7 +9,8 @@ function Info({name, email, number, gitLink, linkedinLink}) {
                                 fontWeight:'600',
                                 display:'flex',
                                 justifyContent: 'center',
-                                alignItems: 'center'}}>
+                                alignItems: 'center',
+                                }}>
             <Paper elevation={5} 
                    style={{
                         margin:5,
@@ -18,7 +19,7 @@ function Info({name, email, number, gitLink, linkedinLink}) {
                         display:'flex', 
                         flexDirection:'column',
                         width:'100%',
-                        backgroundColor: colors.secondary 
+                        backgroundColor: colors.secondary,
                         }}
             >
                     <h2>Name:</h2><span>{name}</span><br/>

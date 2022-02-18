@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Link, NavLink, Outlet } from 'react-router-dom';
 import colors from '../config/colors';
 
 function Navbar(props) {
@@ -12,20 +12,20 @@ function Navbar(props) {
                                         justifyContent: 'space-evenly', 
                                         alignItems: 'center',
                                         color: colors.secondary}}>
-                <Link to="home">
-                    <h1>Home</h1>
-                </Link>                            
-                <Link to="aboutme">
+
+                <NavLink to="/portfolio/home">
+                    <h1>Profile</h1>
+                </NavLink>
+                <NavLink to="/portfolio/aboutme">
                     <h1>About Me</h1>
-                </Link>
-                <Link to="projects">
+                </NavLink>
+                <NavLink to="/portfolio/projects">
                     <h1>Projects</h1>
-                </Link>
-                <Link to="research">
+                </NavLink>
+                <NavLink to="/portfolio/research">
                     <h1>Research</h1>
-                </Link>
+                </NavLink>
             </nav>
-            <Outlet/>
         </>
     );
 }

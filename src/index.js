@@ -10,16 +10,9 @@ import Profile from './components/Profile';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Routes>
-      <Route path="/portfolio/" element={<App />} >
-          <Route path="aboutme" element={<AboutMe />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="research" element={<Research />} />
-          <Route path="home" element={<Profile />} />
-      </Route>
-    </Routes>
+    <App/>
   </BrowserRouter>,
-    document.getElementById('root')
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
