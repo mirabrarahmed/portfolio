@@ -7,7 +7,7 @@ import Profile from './components/Profile';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Research from './components/Research';
-import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 
 function App() {
   const [isChecked, setIsChecked] = useState(true)
